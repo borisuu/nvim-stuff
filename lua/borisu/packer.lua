@@ -59,7 +59,8 @@ return require('packer').startup(function(use)
     use('MunifTanjim/prettier.nvim')
 
     -- use('tpope/vim-commentary')
-    use('terrortylor/nvim-comment')
+    -- use('terrortylor/nvim-comment')
+    use('numToStr/Comment.nvim')
     use('tpope/vim-surround')
 
     -- marks
