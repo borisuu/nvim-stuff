@@ -62,7 +62,7 @@ return require('packer').startup(function(use)
     use('terrortylor/nvim-comment')
     use('tpope/vim-surround')
 
-    -- marks?
+    -- marks
      use('chentoast/marks.nvim')
 
      -- luasnip in telescope
