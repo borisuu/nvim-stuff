@@ -64,4 +64,7 @@ return require('packer').startup(function(use)
 
     -- marks?
      use('chentoast/marks.nvim')
+
+     -- luasnip in telescope
+     use('benfowler/telescope-luasnip.nvim')
 end)
