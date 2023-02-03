@@ -44,6 +44,9 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
     { desc = 'Rename word under cursor' })
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { desc = 'Make file executable', silent = true })
 
+vim.keymap.set("v", "<", "<gv")
+vim.keymap.set("v", ">", ">gv")
+
 -- vim.keymap.set("n", "<C-K>", "<C-W><C-K>")
 -- vim.keymap.set("n", "<C-J>", "<C-W><C-J>")
 -- vim.keymap.set("n", "<C-H>", "<C-W><C-H>")
